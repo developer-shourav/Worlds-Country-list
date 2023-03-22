@@ -24,8 +24,10 @@ function Counter() {
   }
   const decreaseCount = () => {
     const value = Number(count);
-    const newValue = value - 1 ;
-    setCount(newValue)
+    if( value > 0){
+      const newValue = value - 1 ;
+      setCount(newValue)
+    }
   }
   return(
     <div>
