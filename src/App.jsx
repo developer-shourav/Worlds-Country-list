@@ -11,13 +11,12 @@ function App() {
     .then(res => res.json())
     .then( data => setCountries(data))
   }, [])
-  console.log(countries);
   return (
     <div className="App">
 
       <div className="users-container">
         {
-          countries.map( country => <Countries country = {country} > </Countries>)
+          countries.map( country => <Countries country = {country} key = {country.flags.png} > </Countries>)
         }
 
       </div>
