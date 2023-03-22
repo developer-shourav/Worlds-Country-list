@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       
-     
+     <h1>Amaro porano jaha cay</h1>
     </div>
   )
 }
