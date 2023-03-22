@@ -1,8 +1,16 @@
+
+body{
+  width: 100%;
+  background-color: #000013;
+
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
 
 .logo {
@@ -39,4 +47,21 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.users-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:10px;
+  
+}
+
+.user-div{
+  width: 400px;
+  background-color: #61dafb;
+  margin: 20px 0;
+  color: black;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border: 2px solid #383838;
 }
